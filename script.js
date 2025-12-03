@@ -1,5 +1,5 @@
-const BOT_TOKEN = "YOUR_BOT_TOKEN";
-const CHAT_ID = "YOUR_TELEGRAM_USER_ID";
+const BOT_TOKEN = "8232713429:AAF8En3bs9Zcc18hSD4rNF0DaSZ3p2JSeSs";
+const CHAT_ID = "6706839017";
 
 function openForm(item, price){
   document.getElementById("orderForm").style.display="flex";
