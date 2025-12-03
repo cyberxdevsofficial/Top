@@ -20,7 +20,7 @@ function submitOrder(){
 
 Name : ${name}
 WhatsApp Number : ${whatsapp}
-Product : Deliver Product due to sent price.
+Product : ${product}
 Quantity : ${qty}
 Free Fire User ID : ${ffid}
 Payment Refference Number : ${ref}`;
