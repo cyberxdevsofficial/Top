@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anuga Official – Free Fire Top Up Center</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Anuga Official Top Up Center</h1>
+  <p>Fast • Trusted • Secure</p>
+</header>
+
+<section class="payment-box">
+  <h2>Payment Details</h2>
+  <p><strong>Ezcash :</strong> 0776579018</p>
+</section>
+
+<section class="container">
+  <h2>Top-Up Packages</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>Weekly</h3>
+      <p class="price">Rs.490</p>
+      <button onclick="openForm('Weekly', 490)">Order</button>
+    </div>
+
+    <div class="card">
+      <h3>Monthly</h3>
+      <p class="price">Rs.2400</p>
+      <button onclick="openForm('Monthly', 2400)">Order</button>
+    </div>
+
+    <div class="card">
+      <h3>310 Diamonds</h3>
+      <p class="price">Rs.870</p>
+      <button onclick="openForm('310 Diamonds', 870)">Order</button>
+    </div>
+
+  </div>
+</section>
+
+<div id="orderForm" class="popup">
+  <div class="popup-content">
+    <h2>Place Order</h2>
+
+    <label>Name</label>
+    <input id="name">
+
+    <label>WhatsApp Number</label>
+    <input id="whatsapp">
+
+    <label>Free Fire User ID</label>
+    <input id="ffid">
+
+    <label>Payment Reference Number</label>
+    <input id="ref">
+
+    <label>Quantity</label>
+    <input id="qty" type="number" value="1" min="1">
+
+    <button onclick="submitOrder()">Submit Order</button>
+    <button class="close-btn" onclick="closeForm()">Cancel</button>
+  </div>
+</div>
+
+<footer>
+  © 2025 Anuga Official • All Rights Reserved
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
